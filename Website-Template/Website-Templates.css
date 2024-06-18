@@ -1,0 +1,306 @@
+.content{
+    background-image: url(https://preview.colorlib.com/theme/product/images/hero_bg_5.jpg.webp);
+    height: 955px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-family: "Muli", sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #555050;
+}
+.menu:hover{
+    color: black;
+}
+
+.li{
+    font-size: 11px;
+    letter-spacing: .1rem;
+    
+}
+.logo {
+    font-size: 20px;
+    letter-spacing: .4rem;
+    color: #000000;
+    font-weight: 700;
+    left: 0px;
+    top: 50%;
+}
+.navigation{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+}
+.menu-icons{
+    font-size: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.center-Text{
+    height: 650px;
+    width: 960px;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: "Libre Baskerville", serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+}
+.mugesh{
+    color: #0fb78d;
+    text-decoration: none;
+}
+.btn{
+    background: transparent;
+    border-color: #000000;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border-radius: 30px; */
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border-radius: 0;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+   
+.main-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container-1{
+    height: 173px;
+    width: 289px;
+    text-align: center;
+    padding: 20px;
+}
+.h1{
+    font-size: 11px;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: .5rem    
+}
+.s1{
+    font-size: 15px;
+    color: #b3b3b3;
+    font-family: "Muli", sans-serif;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.fa{
+    margin-bottom: .5rem 
+}
+.container-2{
+    height: 173px;
+    width: 289px;
+    text-align: center;
+    padding: 20px;
+}
+.container-3{
+    height: 173px;
+    width: 289px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.secondContainer{
+    height: 983px ;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+.box{
+    height: 467px;
+    width: 319px;
+    pad: 10px;
+    text-align: center;
+}
+
+.imgicon{
+    position: absolute;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: #ffffff;
+    z-index: 2;
+    font-family: "Muli", sans-serif;
+    line-height: 1.6;
+}
+.icon1{
+    background: #0fb78d;
+    
+}
+.icon2{
+    background-color: #ffc107;
+}
+.icon3{
+    background-color: #ffc107;
+}
+.icon4{
+    background-color: #ffc107;
+}
+
+.img{
+    height: 398px;
+    /* width: 289px;  */
+    background-size: cover;   
+}
+
+.i1{
+    background-image: url(https://preview.colorlib.com/theme/product/images/cloth_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.i2{
+    background-image: url(https://preview.colorlib.com/theme/product/images/cloth_2.jpg);
+}
+.i3{
+    background-image: url(https://preview.colorlib.com/theme/product/images/watch_1.jpg);
+}
+.i4{
+    background-image: url(https://preview.colorlib.com/theme/product/images/shoe_2.jpg);
+}
+.i5{
+    background-image: url(https://preview.colorlib.com/theme/product/images/cloth_3.jpg);
+}
+.i6{
+    background-image: url(https://preview.colorlib.com/theme/product/images/shoe_1.jpg);
+}
+
+.secondimg{
+    background-image: url(https://preview.colorlib.com/theme/product/images/hero_bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.background-contant{
+    width: 50%;
+    padding: 30px;
+    background: #ffffff;
+    left: 20px;
+    position: absolute;
+    top: 35%;
+}
+.body{
+    font-family: "Muli", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+.head{
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+}
+.two{
+    background: #000000;
+    color: #ffffff;
+
+}
+
+.cardThree{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.popular-items{
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 500px;
+}
+.footerpage{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Muli, sans-serif;
+    line-height: 1.6;
+    padding-top: 130px;
+}
+.footer{
+    height: 300px;
+    width: 180px;
+}
+.card4{
+    width: 530px;
+}
+.ull{
+    padding-top: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+.button{
+    padding: 20px;
+}
+.submit{
+}
+.email{
+    padding: 15px;
+    padding-right: 142px;
+}
+.subcribe{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+    color: white;
+}
+.ph{
+    display: flex;
+    justify-content: center;
+   padding-bottom: 100px;
+   padding-top: 50px;
+}
