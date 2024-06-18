@@ -69,6 +69,8 @@ width: 100%;
 }
 .leftPart{
     background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/welcome-bg.png);
-    width: 100%;
-    height: auto;
+    height: 608px;
+    width: 608px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
