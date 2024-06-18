@@ -1,0 +1,74 @@
+.mainImg{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 929px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBar{
+    padding: 20px 20px 0px 70px;
+    
+}
+.navigationBar {
+    width: 90%;
+    background-color: white;
+    display: flex;
+    padding: 20px 0px;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-around;
+}
+.navImg{
+    overflow: clip;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+}
+.navigationBar ul li {
+    color: #131230;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+display: inline-block;
+padding: 15px;
+}
+.centerText{
+    padding: 400px 0 350px;
+    flex: 0 0 100%;
+    text-align: center;
+}
+.h6{
+    color: #fff;
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.h1{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 60px !important;
+    font-weight: 700;
+    font-style: italic;
+}
+.premium{
+    color: #ffb606;
+}
+
+.pageTwo{
+height: 738px;
+width: 100%;
+}
+.leftPart{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/welcome-bg.png);
+    width: 100%;
+    height: auto;
+}
