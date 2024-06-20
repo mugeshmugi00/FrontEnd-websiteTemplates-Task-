@@ -130,14 +130,13 @@ padding: 15px;
     margin-left: 245px;
 }
 .container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    padding: 130px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     height: 450px;
-    width: 380px;
+    width: 367px;
     text-align: -webkit-center;
 }
 .image{
@@ -174,8 +173,180 @@ padding: 15px;
     font-size: 20px;
     font-weight: 700;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .foodcontent{
-    padding: 30px;
+    padding: 40px;
+    width: 350px;
+}
+.foodcontent:hover{
+    background-color: #ffb606;
+    color: black;
+}
+.contentBox{
+    color: #ffb606;
+}
+
+.background_img-4{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.textimg-4{
+    padding: 130px 0px;
+    text-align: center;
+}
+.h2{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 42px !important;
+    font-weight: 700;
+}
+.h4{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+}
+.btn-reservation{
+    color: #131230;
+    background: #ffb606;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 12px 30px ;
+    margin-top: 1.5rem;
+
+}
+.btn-reservation:hover{
+    background: transparent;
+    border-color: #ffb606;
+    color: #ffb606;
+}
+
+
+.page5{
+    height: 1290px;
+    width: 100%;
+    padding: 130px 0px;
+    justify-content: center;
+
+}
+.page5-content-main{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.one{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+
+
+.page5-maincontainer{
+    height: 496px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.page5-left{
+    height:393px ;
+    width: 475px;
+}
+
+.style-change {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    padding-bottom: 1.5rem;
+}
+.deshes-area-text{
+    padding-left: 90px;
+}
+.page5-right-img{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/deshes1.png);
+    width: 445px;
+    height: 396px;
+    margin-left: 100px;
+    background-size: contain;
+}
+/*  */
+.page5-left-img{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/deshes2.png);
+    width: 445px;
+    height: 396px;
+    background-size: contain;
+}
+.page5-right-text{
+    height:393px ;
+    width: 475px;
+    margin-left: 170px;
+}
+.page5-maincontainer-two{
+    height: 496px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+/*  */
+.page6-img{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/testimonial-bg.jpg);
+    width: 100%;
+    height: 483px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 130px 0px 200px;
+    /* opacity: 0.5; */
+}
+.page6-text{
+    text-align: center;
+}
+
+/*  */
+.page7{
+    width: 100%;
+    height: 935px;
+    padding: 130px 0px;
+}
+.page7-text{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.page7-text-one{
+    text-align: center;
+}
+.page7-cards{
+    height: 530px;
+    width: 100%;
+}
+.page7c{
+    height: 530px;
+    width: 380px;
+}
+.page7-card1-img{
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/update1.jpg);
+    width: 350px;
+    height: 291px;
+}
+.page7-card-text{
+    padding: 30px 40px;
+}
+.icon-fafa{
+    text-size-adjust: 20px;
 }
