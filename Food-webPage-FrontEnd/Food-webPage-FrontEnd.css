@@ -127,7 +127,7 @@ padding: 15px;
 .imgText1{
     height: 253px;
     width: 100%;
-    margin-left: 245px;
+    padding-left: 245px;
 }
 .container{
     display: flex;
@@ -419,12 +419,13 @@ padding: 15px;
 
 /*  */
 .inputtext-page8{
-    width: 1140px;
+    /* width: 1140px; */
     height: 80px;
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    /* padding-left: 200px; */
 }
 .mainInput{
     width: 200px;
@@ -511,4 +512,3 @@ padding: 15px;
     display: flex;
     justify-content: space-evenly;
 }
-

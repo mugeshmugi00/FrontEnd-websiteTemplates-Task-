@@ -1,42 +1,56 @@
 .main-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 50px 30px;
+    width: 80%;
 }
 .box{
-    padding: 199px;
-    /* height: 350px; */
-
-    /* border: 1px solid; */
-
+    padding: 150px;
 }
 .img1{
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: span 2;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port1.png);
 }
 .img2{
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column: span 2;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port2.png);
 }
 .img3{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port3.png);
 }
 .img4{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port4.png);
 }
 .img5{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port5.png);
 }
 .img6{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port6.png);
 }
 .img7{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port7.png);
 }
 .img8{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port8.png);
 }
 .img9{
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column: span 2;
     background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port9.png);
 }
