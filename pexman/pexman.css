@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 16px;
 }
@@ -14,13 +14,14 @@ body{
 
 }
 .main-img{
-    background-image: url(	https://preview.colorlib.com/theme/pexman/images/bg_1.jpg);
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/bg_1.jpg);
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    /* background-attachment: fixed; */
 }
 .navigation-bor{
     height: 70px;
@@ -37,6 +38,9 @@ body{
     line-height: 1;
     color: #fff;
 }
+.nav-titel-lg:hover{
+    cursor: pointer;
+}
 .nav-titel-small{
     font-weight: 700;
     color: #d9bf77;
@@ -45,6 +49,9 @@ body{
 ul{
     display: flex;
     align-items: center;
+}
+li:hover{
+    cursor: pointer;
 }
 ul li{
     list-style-type: none;
@@ -67,7 +74,7 @@ li:hover{
 }
 .mainpage-text-area{
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 250px;
 }
 .h2-mainPage{
@@ -83,11 +90,20 @@ li:hover{
     width: 100%;
     height: 750px;
     display: flex;
+
 }
 .welcomPage-text{
     width: 50%;
     height: 100%;
-    padding: 110px 50px 20px 300px;
+    position: relative;
+}
+.page2-text{
+    width: 70%;
+    /* height: 100%; */
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 50px;
 }
 .welcomPage-img{
     width: 50%;
@@ -122,6 +138,95 @@ li:hover{
     width: 200px;
     text-align: center;
 }
+.btn-prime:hover{
+    cursor: pointer;
+}
 .arrow{
     font-size: 10px;
+}
+/* page3 */
+/*  */
+.page3{
+    width: 100%;
+    height: 235px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page3-numberCount{
+   text-align: center;
+    width: 300px;
+}
+.numbers{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.wordes{
+    color: white;
+}
+.k{
+    font-size: 20px;
+    
+}
+/* page4 */
+/*  */
+.page4{
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+.page4-img{
+    width: 50%;
+    height: 750px;
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/about-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page4-text{
+    width: 50%;
+    height: 750px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.page4-text-div{
+    height: 570px;
+    width: 530px;
+    border: 1px solid;
+   
+}
+.page4-h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.page4-php{
+    color: #999999;
+    margin-top: 2rem;
+}
+.page4-text-BoxText{
+    display: flex;
+    gap: 20px;
+}
+.page4-BoxText{
+    height:60px ;
+    width:60px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.page4-BoxText-txt{
+    height:60px ;
+    width: 75%;
+    border: 1px solid;
+}
+.gap-page4{
+    gap: 10px
 }
