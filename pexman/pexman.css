@@ -318,19 +318,22 @@ body{
 .hedding-page6{
     width: 1100px;
     height: 90px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-bottom: 3rem;
 }
 .page6-c{
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 .page6-h2{
     font-size: 30px;
     font-weight: 700;
     line-height: 1.4;
+    margin-bottom: 16px;
+
 }
 .page6-ul-li{
     color:#999999;
@@ -341,5 +344,69 @@ body{
    display: flex;
     font-size: 13px;
     font-weight: 700;
+    margin-bottom: 16px;
+}
+.page6-cards-imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page6-img{
+    width: 415px;
+    height: 330px;
+    position: relative;
+    .page6-img-text{
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+      background: rgba(0, 0, 0, 0.65);
+      border-top-left-radius: .5em;
+      border-bottom-left-radius: .5em;
+      color: white;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: visibility 0s, opacity 0.5s linear;
+      transition: visibility 0s, opacity 0.5s linear;
+    }
+    &:hover{
+        .page6-img-text{
+            padding: 8px 15px;
+            visibility: visible;
+            opacity: 1;
+            max-width: 80%;
+        }
+    }
+}
+.page6-card-img{
+    width: 387px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img1{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-1.jpg);
 }
 
+
+.img2{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-2.jpg);
+}
+.img3{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-3.jpg);
+}
+.img4{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-4.jpg);
+}
+.img5{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-5.jpg);
+}
+.img6{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-6.jpg);
+}
+.img7{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-7.jpg);
+}
+.img8{
+    background-image: url(https://preview.colorlib.com/theme/pexman/images/work-8.jpg);
+}
