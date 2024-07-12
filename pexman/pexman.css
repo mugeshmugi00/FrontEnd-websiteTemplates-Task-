@@ -346,60 +346,96 @@ body{
     font-weight: 700;
     margin-bottom: 16px;
 }
-.page6-cards-imgs{
-    display: flex;
-    flex-wrap: wrap;
+/*  */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.page6-img{
+  .page6-card {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    /* max-width: 968px; */
+    overflow: hidden;
+  }
+  .card-outer{
     width: 415px;
     height: 330px;
-    position: relative;
-    .page6-img-text{
-      position: absolute;
-      top: 10px;
-      left: 15px;
-      background: rgba(0, 0, 0, 0.65);
-      color: white;
-      visibility: hidden;
-    }
-    &:hover{
-        .page6-img-text{
-            padding: 8px 15px;
-            visibility: visible;
-            /* max-width: 80%; */
-            
-        }
-    }
-}
-.page6-card-img{
-    width: 387px;
+  }
+  .card {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column nowrap;
     height: 300px;
+    justify-content: center;
+    position: relative;
+    width: 387px;
     margin: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-.img1{
+  }
+  .card.card-1 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-1.jpg);
-}
-.img2{
+  }
+  .card.card-2 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-2.jpg);
-}
-.img3{
+  }
+  .card.card-3 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-3.jpg);
-}
-.img4{
+  }
+  .card.card-4 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-4.jpg);
-}
-.img5{
+
+  }
+  .card.card-5 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-5.jpg);
-}
-.img6{
+
+  }
+  .card.card-6 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-6.jpg);
-}
-.img7{
+
+  }
+  .card.card-7 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-7.jpg);
-}
-.img8{
+
+  }
+  .card.card-8 {
     background-image: url(https://preview.colorlib.com/theme/pexman/images/work-8.jpg);
-}
+
+  }
+  .card::after {
+    background: rgba(0, 0, 0, 0.7);
+    content: '';
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 300ms ease-in;
+    width: 100%;
+  }
+  .card:hover::after, .card:hover .project-title, .card:hover .project-subtitle {
+    opacity: 1;
+  }
+  .card .project-title {
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+    padding: 10px 0;
+    z-index: 10;
+  }
+  .card .project-subtitle {
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0;
+    padding: 10px 0;
+    z-index: 10;
+  }

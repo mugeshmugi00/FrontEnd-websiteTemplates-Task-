@@ -96,3 +96,64 @@ main {
   padding: 10px 0;
   z-index: 10;
 }
+
+
+/*  */
+/*  */
+.page6-cards-imgs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.page6-img{
+  width: 415px;
+  height: 330px;
+  position: relative;
+  .page6-img-text{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    visibility: hidden;
+  }
+  &:hover{
+      .page6-img-text{
+          padding: 8px 15px;
+          visibility: visible;
+          /* max-width: 80%; */
+          
+      }
+  }
+}
+.page6-card-img{
+  width: 387px;
+  height: 300px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img1{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-1.jpg);
+}
+.img2{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-2.jpg);
+}
+.img3{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-3.jpg);
+}
+.img4{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-4.jpg);
+}
+.img5{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-5.jpg);
+}
+.img6{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-6.jpg);
+}
+.img7{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-7.jpg);
+}
+.img8{
+  background-image: url(https://preview.colorlib.com/theme/pexman/images/work-8.jpg);
+}
