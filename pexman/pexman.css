@@ -93,6 +93,7 @@ body{
     display: flex;
 
 }
+
 .welcomPage-text{
     width: 50%;
     height: 100%;
@@ -101,10 +102,9 @@ body{
 .page2-text{
     width: 70%;
     /* height: 100%; */
-    float: right;
-    position: absolute;
-    top: 150px;
-    right: 50px;
+    /* float: right; */
+    margin: auto;
+    margin-top: 10px;
 }
 .welcomPage-img{
     width: 50%;
@@ -193,11 +193,13 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 .page4-text-div{
-    height: 570px;
-    width: 530px;
+    /* height: 570px;
+    width: 530px; */
     /* border: 1px solid; */
+    margin-left: 25px;
    
 }
 .page4-h1{
@@ -312,7 +314,7 @@ body{
 /*  */
 .page6{
     width: 100%;
-    height: 1022px;
+    /* height: 1022px; */
     padding: 112px 0px;
 }
 .hedding-page6{
@@ -338,6 +340,10 @@ body{
 .page6-ul-li{
     color:#999999;
 }
+.page6-ul-li:hover{
+    cursor: pointer;
+    color: #d9bf77;
+}
 .page6-ul{
     gap: 10px;
     list-style-type: none;
@@ -353,6 +359,7 @@ body{
     padding: 0;
 }
   .page6-card {
+    
     align-items: center;
     display: flex;
     /* grid-template-columns: repeat(4,1fr); */
@@ -509,7 +516,7 @@ body{
 /*  */
 .page8{
     width: 100%;
-    height: 843px;
+    /* height: 843px; */
     padding: 112px 0px 112px;
     background-color: #f7f7f7;
 }
@@ -621,7 +628,7 @@ footer{
 }
 .footertwo{
     height:346px ;
-    width: 457px;
+    width: 350px;
     /* border:1px solid white; */
 
 }
@@ -637,7 +644,7 @@ footer{
 }
 .right{
     height:199px ;
-    width: 228px;
+    /* width: 228px; */
     color: #999999;
     /* border:1px solid white; */
 }
@@ -649,6 +656,9 @@ li{
     margin-bottom: 1.5rem;
 }
 .right-li:hover{
+    cursor: pointer;
+}
+.left-li:hover{
     cursor: pointer;
 }
 .footerThree{
